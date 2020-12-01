@@ -1,0 +1,36 @@
+.searchbar_container {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchbar_form {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.searchbar_input {
+    height: 20px;
+    padding: 5px 2px;
+    margin: 10px;
+    width: 175px;
+    font-size: 16px;
+    outline: none;
+}
+
+.searchbar_input:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    outline: none;
+}
+
+
+.search_button {
+    font-size: 20px;
+}
+
+.search_button:hover {
+    text-shadow: 2px 2px;
+}
